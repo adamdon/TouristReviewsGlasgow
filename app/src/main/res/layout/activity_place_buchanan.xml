@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_buchanan_street"
+    tools:context="uk.ac.cityofglasgowcollege.gccadamdon.PlaceBuchanan">
+    <ImageButton
+        android:id="@+id/btnTitleHome"
+        android:layout_width="97dp"
+        android:layout_height="63dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@null"
+        android:onClick="goToActivityHomeOne"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/titlebar_home_non_clicked"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageButton
+        android:id="@+id/btnTitlePlaces"
+        android:layout_width="99dp"
+        android:layout_height="65dp"
+        android:layout_x="97dp"
+        android:layout_y="0dp"
+        android:background="@null"
+        android:onClick="goToActivityPlaces"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/titlebar_places_clicked"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageButton
+        android:id="@+id/btnTitleSettings"
+        android:layout_width="99dp"
+        android:layout_height="63dp"
+        android:layout_x="196dp"
+        android:layout_y="0dp"
+        android:background="@null"
+        android:onClick="goToActivitySettings"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/titlebar_settings_non_clicked"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageButton
+        android:id="@+id/btnTitleDots"
+        android:layout_width="91dp"
+        android:layout_height="63dp"
+        android:layout_x="295dp"
+        android:layout_y="0dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/titlebar_contextdots_non_clicked"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageButton
+        android:id="@+id/btnReview"
+        android:layout_width="164dp"
+        android:layout_height="29dp"
+        android:layout_x="112dp"
+        android:layout_y="533dp"
+        android:background="@null"
+        android:onClick="goToActivityReview"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/postreviewbutton" />
+
+
+</AbsoluteLayout>

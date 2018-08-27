@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.ac.cityofglasgowcollege.gccadamdon.splashScreen">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="388dp"
+        android:layout_height="match_parent"
+        android:layout_x="-2dp"
+        android:layout_y="0dp"
+        android:background="@null"
+        android:cropToPadding="false"
+        android:onClick="goToActivityHomeOne"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/splash_screen" />
+</AbsoluteLayout>
+
